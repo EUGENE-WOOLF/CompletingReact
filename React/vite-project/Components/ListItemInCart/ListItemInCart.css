@@ -1,0 +1,58 @@
+.card {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  background-color: white;
+  border-radius: 12px;
+  padding: 16px 20px;
+  box-shadow: 0 2px 8px rgba(0, 0, 0, 0.05);
+  transition: background-color 0.3s ease, border 0.3s ease;
+  border: 1px solid #e0e0e0;
+  margin-bottom: 12px;
+}
+
+.purchased {
+  background-color: #e6f4ea;
+  border-color: #a1d9b0;
+}
+
+.pending {
+  background-color: #fffce6;
+  border-color: #f1da74;
+}
+
+.card-content {
+  display: flex;
+  flex-direction: column;
+}
+
+.item-name {
+  margin: 0;
+  font-size: 18px;
+  font-weight: 600;
+  color: #333;
+}
+
+.item-details {
+  font-size: 14px;
+  color: #666;
+  margin-top: 4px;
+}
+
+.item-status {
+  padding: 6px 12px;
+  border-radius: 20px;
+  font-size: 12px;
+  font-weight: 500;
+  text-transform: uppercase;
+}
+
+.purchased .item-status {
+  background-color: #3bb273;
+  color: white;
+}
+
+.pending .item-status {
+  background-color: #facc15;
+  color: black;
+}

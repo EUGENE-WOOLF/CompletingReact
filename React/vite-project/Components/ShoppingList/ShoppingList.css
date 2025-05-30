@@ -1,0 +1,11 @@
+.shopping-list {
+  max-width: 600px;
+  margin: 0 auto;
+  padding: 24px;
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+.shopping-list ul {
+  list-style: none;
+  padding: 0;
+}
